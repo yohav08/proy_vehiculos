@@ -20,11 +20,11 @@ Aplicación de escritorio en Java con arquitectura **MVC**, diseñada para regis
 
 ## 📚 Documentación
 
-El proyecto está **completamente documentado**, con comentarios en cada clase, método y funcionalidad. Desde la lógica de conexión a la base de datos hasta la interfaz gráfica y generación de archivos, cada parte del código incluye explicaciones que facilitan su comprensión y mantenimiento.
+El proyecto está **completamente documentado**, con comentarios en cada clase, método y funcionalidad. Desde la lógica de conexión a la base de datos hasta la interfaz gráfica y generación de archivos, cada parte incluye explicaciones que facilitan su comprensión y mantenimiento.
 
 ## 🎓 Contexto Académico
 
-Este proyecto fue desarrollado durante el **quinto semestre** de la **Tecnología en Sistematización de Datos**, como entrega final para la asignatura **Programación Multinivel**. En él se aplican todos los conceptos aprendidos a lo largo del semestre, incluyendo diseño modular, persistencia de datos, hilos, generación de archivos y uso del patrón **Modelo-Vista-Controlador**.
+Este proyecto fue desarrollado durante el **quinto semestre** de **Tecnología en Sistematización de Datos**, como entrega final para la asignatura **Programación Multinivel**. En él se aplican todos los conceptos aprendidos a lo largo del semestre, incluyendo diseño modular, persistencia de datos, hilos, generación de archivos y uso del patrón **Modelo-Vista-Controlador**.
 
 ## 🛠️ Tecnologías
 
@@ -37,4 +37,4 @@ Este proyecto fue desarrollado durante el **quinto semestre** de la **Tecnologí
 
 ---
 
-Desarrollado por **Yohana Avila** 💡
+Desarrollado por **Yohana Avila Mendoza** 
