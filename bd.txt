@@ -1,0 +1,30 @@
+CREATE DATABASE recaudo;
+USE recaudo;
+
+CREATE TABLE propietario(
+    id varchar(10) PRIMARY KEY,
+    nombre varchar(30),
+    telefono varchar(15),
+    email varchar(45),
+    fecha_nac date
+);
+
+CREATE TABLE formulario (
+    num_formulario varchar(7) PRIMARY KEY,
+    fecha date,
+    id_propietario varchar(10),
+    FOREIGN KEY (id_propietario) REFERENCES propietario(id)
+);
+
+CREATE TABLE vehiculo(
+    placa varchar(7) PRIMARY KEY,
+    marca varchar(30),
+    modelo int,
+    cilindraje int,
+    valor double,
+    id_propietario varchar(10),
+    FOREIGN KEY (id_propietario) REFERENCES propietario(id)
+);
+
+
+-- #Formulario, propietario, placa, marca, modelo, valor, iva
